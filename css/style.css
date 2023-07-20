@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-padding-top: 4rem;
+  scroll-behavior: smooth;
+}
+/* body */
+html,
+body {
+  color: black;
+  line-height: 1.7rem;
+}
+
+ul li a {
+  color: #fff;
+  font-weight: 600px;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Utility */
+.container {
+  max-width: 1100px;
+  overflow: auto;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.text-primary {
+  color: #f28500;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #f28500;
+  cursor: pointer;
+  border: none;
+  padding: 14px 20px;
+  background: #770b0b;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  color: #fff;
+  background: #f28500;
+}
+
+.btn-light {
+  background: #d9e7ff;
+  color: #770b0b;
+}
+
+.bg-dark {
+  background: #770b0b;
+  color: #fff;
+}
+
+.bg-primary {
+  color: #fff;
+  background: #f28500;
+}
+
+/* padding */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-2 {
+  padding: 30px 0;
+}
+
+/* Navbar */
+#navbar {
+  background: #770b0b;
+  color: #fff;
+  /* padding: 30px 80px; */
+  overflow: auto;
+  /* width: 100%;
+  position: fixed; */
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 20px;
+  color: #f28500;
+}
+
+#navbar h1 span {
+  font-weight: 300;
+  color: #fff;
+}
+
+#navbar ul {
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+  font-size: 1rem;
+}
+
+#navbar ul li a {
+  display: block;
+  text-align: center;
+  margin: 20px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.home {
+  background-color: #f28500;
+  color: #770b0b;
+  transition: 0.2s;
+}
+
+/* Showcase */
+
+#showcase {
+  background: url(../Images/Hotel\ Home\ background.jpg) no-repeat center center/cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  padding-top: 170px;
+  text-align: center;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+/* Home Info */
+
+#home-info {
+  height: 500px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url(../Images/Hotel\ bacground-3.jpg) no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  padding: 50px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/* ============= */
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+.clr {
+  clear: both;
+}
+
+/* ============= */
+/* ABOUT SECTION */
+/* ================= */
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding-top: 50px;
+}
+.about-head {
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+/* Testimonals section */
+
+#testimonals {
+  height: 600px;
+  background: url(../Images/bedroom\ 2.jpg) no-repeat center center/cover;
+  padding-top: 40px;
+}
+#testimonals .testimonal img {
+  width: 100px;
+  float: left;
+  object-position: contain;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+#testimonals h2 {
+  color: #770b0b;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonals .testimonal {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+/* ========== */
+/* Contact Form */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form labe {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f28500;
+}
+
+/* ============ */
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  background: rgb(43, 42, 42);
+  color: #fff;
+  padding: 20px;
+}
